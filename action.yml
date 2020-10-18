@@ -1,0 +1,11 @@
+name: 'GH Actions Webhook'
+description: 'Call an API endpoint'
+inputs:
+  url:  # id of input
+    description: 'URL To call'
+    required: true
+    default: 'https://www.google.com'
+runs:
+  using: 'node12'
+  main: 'index.js'
+
